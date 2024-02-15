@@ -1,12 +1,12 @@
 // contacts styles
 
 .map-button-icon {
-  fill: black;
+  fill: var(--black-color);
 }
 
 .social-media-footer-icon {
-  fill: pink;
-  stroke: white;
+  fill: var(bgc-products_first-color);
+  stroke: var(--white-text-color);
 }
 
 .social-media-footer-icon:hover,
@@ -62,7 +62,7 @@
 }
 
 .type-of-location {
-  color: #fff;
+  color: var(--white-text-color);
   text-align: center;
   font-size: 12px;
   font-weight: 500;
@@ -105,7 +105,7 @@
 }
 
 .card-location-description {
-  color: #907e82;
+  color:var(--brown-color);
   font-size: 12px;
   font-weight: 500;
   line-height: 18px; /* 150% */
@@ -114,7 +114,7 @@
 
 .card-location-description::selection {
   background-color: var(--brown-color);
-  color: white;
+  color: var(--white-text-color);
 }
 
 .fixed-lines {
